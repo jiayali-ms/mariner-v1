@@ -1,0 +1,22 @@
+# Site settings
+title: Amye and Jim
+email: wedding@msamye.com
+description: July 18th, 2019
+location: "Laurelhurst Park, Portland Oregon"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "scavarda-perr.in" # the base hostname & protocol for your site
+author:
+
+icon: fa-diamond # Font Awesome class for your site's icon
+
+# Social settings
+github_url: https://github.com/jperrin/wedding-site
+instagram_url:
+pinterest_url:
+slack_url:
+
+# Build settings
+markdown: kramdown
+
+sass:
+style: compressed
