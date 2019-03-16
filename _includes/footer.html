@@ -1,17 +1,22 @@
-</div>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <p class="copyright">&copy; {{ site.title }} </p>
-  </footer>
-
-</div>
-
-<!-- BG -->
-<div id="bg"></div>
-
-<!-- Scripts -->
-<script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/skel.min.js"></script>
-<script src="/assets/js/util.js"></script>
-<script src="/assets/js/main.js"></script>
+<!-- Footer -->
+<footer id="footer">
+  <ul class="icons">
+    {% for socloc in site.social %}
+    {% if socloc[1] %}
+    {% if socloc[0] == 'email' %}
+    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
+           ><span class="label">E-mail</span></a></li>
+    {% else %}
+    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
+           ><span class="label">{{ socloc[0] }}</span></a></li>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+  <ul class="copyright">
+    <li><a href="http://scavarda-perr.in" target="_blank">Amye and Jim</a></li>
+    <li>Married 2019</li>
+  </ul>
+  <ul class="copyright">
+  </ul>
+</footer>
