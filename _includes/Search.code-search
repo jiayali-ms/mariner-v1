@@ -1,0 +1,12 @@
+# Query: mariner-landing-background.png
+# Flags: IgnoreExcludeSettings
+
+4 results - 2 files
+
+css/ie9.scss:
+  116: 			background-image: url("../../images/mariner-landing-background.jpg");
+
+css/main.scss:
+  1690: 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/mariner-landing-background.png")'));
+  1815: 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/mariner-landing-background.png")'));
+  1836: 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/mariner-landing-background.png")'));

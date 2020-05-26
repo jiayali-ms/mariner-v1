@@ -1,12 +1,12 @@
 # Site settings
 title: "Microsoft Mariner"
-description: Mariner is a CentOS-compatible, general-purpose, open-source Linux distribution that is being developed by Microsoft to power various use cases ranging from Azure services to IoT products.
+description: Linux for Cloud and Edge
 owner: Microsoft COSINE EdgeOS
 first_published: 2020
-email: MarinerAdmins@micrsofot.com
+email: MarinerAdmins@micrsoft.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "mariner" # the base hostname & protocol for your site
-
+logo: "images/mariner.png"
 social:
   github: https://github.com/microsoft/MarinerSite
 

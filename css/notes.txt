@@ -1,0 +1,4 @@
+News and updates section 
+- blog post format (see Azure Sphere page)
+- RSS style feed for "do I have the latest stuff?"
+- FAQs

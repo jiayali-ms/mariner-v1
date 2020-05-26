@@ -40,8 +40,8 @@
   $grey: #e8e7e5;
   $yellow: #f0e0a2;
   $red: #f49890;
-  $blue: #405470;
-  $blue2: #d4f0fc;
+  $blue: #556bb4;
+  $blue2: #2f4480;
   $green: #68876f;
   $grey: #777777;
 
@@ -112,10 +112,10 @@
 		),
 
 		accent6: (
-			bg:				#ed4933,
+			bg:				$yellow,
 			fg-bold:		#ffffff,
-			fg:				mix(#ed4933, #ffffff, 25%),
-			fg-light:		mix(#ed4933, #ffffff, 40%),
+			fg:				mix($yellow, #ffffff, 25%),
+			fg-light:		mix($yellow, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
