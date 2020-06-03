@@ -2,14 +2,16 @@
 layout: landing
 ---
 
-<section id="banner" style="justify-content:center; height:100vh;">
+<section id="banner" style="justify-content:center; height:100vh; text-align: center;">
   <div class="inner"> 
     <h2 href="images/mariner.png">
       <img src="images/mariner.png" style="margin-bottom:-15px; margin-right:15px; height:2em; width:auto;">
       {{ site.title }}
     </h2>
     <p>{{ site.description | markdownify }}</p>
-    <p><a href="/_includes/sections/get-mariner-more.html" class="button special">Get Mariner</a></p>
+    <p><a href="https://dev.azure.com/mariner-org/_apis/resources/Containers/4592513?itemPath=Mariner%20FULL%20ISO/full-1.0.MM4.200512.1840.iso" class="button special">
+      Download Mariner</a>
+    </p>
   </div>
   <a href="#about-mariner" class="more scrolly">About Mariner</a>
 </section>
@@ -22,24 +24,24 @@ layout: landing
   {% include sections/get-mariner.html %}
 </section>
 
-<section id="documentation" class="wrapper style1 special">
+<section id="news-and-updates" class="wrapper style1 special">
+  {% include sections/news-and-updates.html %}
+</section>
+
+<section id="documentation" class="wrapper style2 special">
 {% include sections/documentation.html %}
 </section>
 
-<section id="contribute" class="wrapper style2 special">
+<section id="contribute" class="wrapper style1 special">
   {% include sections/contribute.html %}
 </section>
 
-<section id="resources" class="wrapper style1 special">
+<section id="resources" class="wrapper style2 special">
   {% include sections/resources.html %}
 </section>
 
-<section id="contact" class="wrapper alt style2">
+<section id="contact" class="wrapper alt style1">
   {% include sections/contact.html %}
 </section>
-<!--
-<section id="rsvp" class="wrapper style3 special" style="background-color: #fffafa">
-  {% include sections/rsvp.html %}
-</section>
--->
+
 
