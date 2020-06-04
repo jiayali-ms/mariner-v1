@@ -4,7 +4,7 @@ description: Linux for Cloud and Edge
 owner: Microsoft COSINE EdgeOS
 first_published: 2020
 email: MarinerAdmins@micrsoft.com
-baseurl: "mariner-v1" # the subpath of your site, e.g. /blog
+baseurl: "/mariner-v1" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 logo: "images/mariner.png"
 icon: "images/mariner.png"
